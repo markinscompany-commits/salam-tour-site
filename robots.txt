@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Яндекс: не считать метки Директа и рассылок за разные страницы
+Clean-param: utm_source&utm_medium&utm_campaign&utm_term&utm_content&yclid&gclid
+
+Sitemap: https://markinscompany-commits.github.io/salam-tour-site/sitemap.xml
